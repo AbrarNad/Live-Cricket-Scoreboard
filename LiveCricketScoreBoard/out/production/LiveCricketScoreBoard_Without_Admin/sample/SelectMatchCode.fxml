@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SelectMatchCodeController">
+   <children>
+      <Label layoutX="19.0" layoutY="190.0" prefHeight="36.0" prefWidth="193.0" text="Enter Match Code:" textFill="#cd1010">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="matchCode_value" layoutX="225.0" layoutY="190.0" prefHeight="36.0" prefWidth="176.0" />
+      <Button fx:id="matchCode" layoutX="250.0" layoutY="123.0" mnemonicParsing="false" onAction="#matchCodeAction" prefHeight="45.0" prefWidth="152.0" text="See Match Code" textFill="#62c38c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="enter" layoutX="333.0" layoutY="244.0" mnemonicParsing="false" onAction="#enterAction" prefHeight="36.0" prefWidth="68.0" text="Enter" textFill="#62c38c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="matchType" layoutX="202.0" layoutY="28.0" prefHeight="56.0" prefWidth="284.0" text="Select Match" textAlignment="CENTER" textFill="#23701d" textOverrun="CLIP">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="reset" layoutX="245.0" layoutY="244.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="36.0" prefWidth="68.0" text="Reset" textFill="#62c38c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnToHomePage" layoutX="529.0" layoutY="396.0" mnemonicParsing="false" onAction="#returnToHomePageAction" prefHeight="25.0" prefWidth="153.0" text="Return to Hom Page" />
+   </children>
+</AnchorPane>

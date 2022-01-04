@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ScoreboardController">
+   <children>
+      <Label layoutX="240.0" layoutY="22.0" prefHeight="57.0" prefWidth="161.0" text="Scoreboard" textFill="#23701d" textOverrun="CLIP">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="220.0" prefHeight="36.0" prefWidth="61.0" text="Run :" textFill="#cd1010">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="272.0" prefHeight="36.0" prefWidth="82.0" text="Wicket :" textFill="#cd1010">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="319.0" prefHeight="36.0" prefWidth="61.0" text="Over :" textFill="#cd1010">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="107.0" prefHeight="36.0" prefWidth="82.0" text="Match :" textFill="#cd1010">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="matchName_value" layoutX="135.0" layoutY="103.0" prefHeight="43.0" prefWidth="457.0" textFill="#768555">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="battingTeam_value" layoutX="40.0" layoutY="170.0" prefHeight="43.0" prefWidth="296.0" textFill="#768555">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="run_value" layoutX="189.0" layoutY="217.0" prefHeight="43.0" prefWidth="168.0" textFill="#768555">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="wicket_value" layoutX="189.0" layoutY="269.0" prefHeight="43.0" prefWidth="168.0" textFill="#768555">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="over_value" layoutX="189.0" layoutY="316.0" prefHeight="43.0" prefWidth="168.0" textFill="#768555">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnToHomePage" layoutX="533.0" layoutY="409.0" mnemonicParsing="false" onAction="#returnToHomePageAction" prefHeight="25.0" prefWidth="153.0" text="Return to Hom Page" />
+      <Button fx:id="selectMatch" layoutX="570.0" layoutY="38.0" mnemonicParsing="false" onAction="#selectMatchAction" prefHeight="43.0" prefWidth="107.0" text="Select Match" textFill="#1e901a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
